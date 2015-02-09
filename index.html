@@ -32,18 +32,27 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Progettazione Interni</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-class="{'in':!navCollapsed}">
             <ul class="nav navbar-nav">
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li><a href="./#/home">Home</a></li>
+              <li><a href="./#/chi-siamo">Chi siamo</a></li>
+              <li><a href="./#/realizzazione-villette">Realizzazione villette</a></li>
+              <li><a href="./#/progetti">Progetti</a></li>
+              <li><a href="./#/contatti">Contatti</a></li>
+              <li><a href="http://www.progettazione-interni.reads.it/" target="_blank">Forum</a></li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <div class="row">
+        <div class="col-sm-4" ng-include="'partials/progetti-3d.html'"></div>
+        <div class="col-sm-8" ui-view></div>
+      </div>
+
+      <div ui-view="home-bottom"></div>
+
     </div>
   </body>
 </html>
