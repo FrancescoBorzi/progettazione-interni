@@ -45,14 +45,15 @@
           </div>
         </div>
       </nav>
-
-      <div class="row">
+      <img src="img/progettazione-interni-logo.png">
+      <br><br>
+      <div class="row page">
         <div class="col-sm-4" ng-include="'partials/sidebar.html'"></div>
-        <div class="col-sm-8" ui-view></div>
+        <div class="col-sm-8 pagebox" ui-view></div>
       </div>
 
       <div ui-view="home-bottom"></div>
-
     </div>
+    <div ng-include="'partials/footer.html'"></div>
   </body>
 </html>

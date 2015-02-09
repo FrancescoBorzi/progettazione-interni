@@ -1,1 +1,52 @@
-Contatti
+<p class="selected">Sei in: <a href="#/home">Home</a> - <b class="selectedpage">Contatti</b></p>
+
+<h1 class="pagetitle">Contatti</h1>
+
+<div class="contact">
+  <h5>1 – Inviaci la richiesta di preventivo gratuito</h5>
+  <p>- specifica bene le tue esigenze ed indica le eventuali sorgenti d’<a href="http://www.rischio-elettromagnetico.it">inquinamento elettromagnetico</a> da cui ti vuoi proteggere;
+    - utilizza l’apposito modulodi richiesta dove indicherai le tue richieste e lo stile che preferisci;
+    - allega alla richiesta le fotografie degli ambienti e la planimetria quotata (con le misure delle stanze) dello stato di fatto con indicazione delle altezze, ubicazione di scarichi, canne fumarie, allacci acqua, gas, prese elettriche.</p>
+
+  <h5>2 – Ricevi il preventivo dalla redazione di Progettazione Interni</h5>
+  <p>In base al tipo di servizio scelto, al numero di ambienti che compongono l’unità immobiliare e alle tue richieste specifiche riceverai il preventivo gratuito con indicazione degli elaborati che riceverai e le modalità di pagamento.</p>
+
+  <h5>3 – Effettua il pagamento</h5>
+  <p>Dopo aver verificato ed accettato il preventivo ricevuto effettua il pagamento dell’acconto comodamente da casa tua con le modalità indicate nel preventivo stesso.</p>
+
+  <h5>4 – Ricevi il tuo progetto da Progettazione Interni</h5>
+  <p>Entro 20 giorni lavorativi dalla data di verifica dell’avvenuto pagamento riceverai via mail il progetto da te richiesto.</p>
+</div>
+
+<div class="contact">
+  <h3>Modulo richiesta preventivo:</h3>
+  <form action="send.php" method="post">
+    <table>
+      <tr>
+        <td>Nome e Cognome:  </td>
+        <td><input type="text" placeholder="Nome Cognome" name="nomecognome" required /></td>
+      </tr>
+      <tr>
+        <td>Tua Email: </td>
+        <td><input type="email" placeholder="LaTuaEmail@gmail.com" name="email" required /></td>
+      </tr>
+      <tr>
+        <td>Oggetto: </td>
+        <td><input type="text" placeholder="Oggetto dell' e-mail" name="oggetto" required /></td>
+      </tr>
+      <tr>
+        <td>Messaggio:</td>
+        <td><textarea name="messaggio" placeholder="Messaggio..." required ></textarea></td>
+      </tr>
+      <tr>
+        <td>Allegato:</td>
+        <td><input name="attachment" type="file"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" value="invia" class="invia"/></td>
+      </tr>
+    </table>
+  </form>
+  </form>
+</div>
