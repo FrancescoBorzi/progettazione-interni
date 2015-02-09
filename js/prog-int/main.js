@@ -49,5 +49,37 @@
         }
       }
     })
+    .state('progetti-3D', {
+      url: '/progetti-3D',
+      views: {
+        '': {
+          templateUrl: 'partials/progetti-3D.html'
+        }
+      }
+    })
+    .state('suddivisione-di-una-casa-in-campagna-in-due-alloggi', {
+      url: '/suddivisione-di-una-casa-in-campagna-in-due-alloggi',
+      views: {
+        '': {
+          templateUrl: 'partials/progetti/suddivisione-di-una-casa-in-campagna-in-due-alloggi.html'
+        }
+      }
+    })
+    .state('ristrutturazione-di-una-casa-in-citta', {
+      url: '/ristrutturazione-di-una-casa-in-citta',
+      views: {
+        '': {
+          templateUrl: 'partials/progetti/ristrutturazione-di-una-casa-in-citta.html'
+        }
+      }
+    })
+    .state('riorganizzazione-di-un-rustico', {
+      url: '/riorganizzazione-di-un-rustico',
+      views: {
+        '': {
+          templateUrl: 'partials/progetti/riorganizzazione-di-un-rustico.html'
+        }
+      }
+    })
   });
 })()
