@@ -17,36 +17,32 @@
   <h5>4 – Ricevi il tuo progetto da Progettazione Interni</h5>
   <p>Entro 20 giorni lavorativi dalla data di verifica dell’avvenuto pagamento riceverai via mail il progetto da te richiesto.</p>
 </div>
+<br>
 
 <div class="contact">
   <h3>Modulo richiesta preventivo:</h3>
   <form action="send.php" method="post">
-    <table>
-      <tr>
-        <td>Nome e Cognome:  </td>
-        <td><input type="text" placeholder="Nome Cognome" name="nomecognome" required /></td>
-      </tr>
-      <tr>
-        <td>Tua Email: </td>
-        <td><input type="email" placeholder="LaTuaEmail@gmail.com" name="email" required /></td>
-      </tr>
-      <tr>
-        <td>Oggetto: </td>
-        <td><input type="text" placeholder="Oggetto dell' e-mail" name="oggetto" required /></td>
-      </tr>
-      <tr>
-        <td>Messaggio:</td>
-        <td><textarea name="messaggio" placeholder="Messaggio..." required ></textarea></td>
-      </tr>
-      <tr>
-        <td>Allegato:</td>
-        <td><input name="attachment" type="file"></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td><input type="submit" value="invia" class="invia"/></td>
-      </tr>
-    </table>
-  </form>
+    <div class="form-group">
+      <label>Nominativo:</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nome e cognome">
+    </div>
+    <div class="form-group">
+      <label>Indirizzo email:</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="esempio@gmail.com">
+    </div>
+    <div class="form-group">
+      <label>Oggetto:</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Oggetto del messaggio">
+    </div>
+    <div class="form-group">
+      <label>Messaggio:</label>
+      <textarea class="form-control" rows="3" placeholder="Testo del messaggio"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputFile">Allegato</label>
+      <input type="file" id="sfoglia">
+      <p class="help-block">Gli utenti possono allegare i files nei seguenti tipi: html, txt, css, gif, png, jpeg, jpg, tiff, bmp, ai, eps, ps, rtf, pdf, doc, docx, xls, zip, rar, wav, mp3, ppt</p>
+    </div>
+    <button type="submit" class="btn btn-default btn-lg btn-block">Invia</button>
   </form>
 </div>
