@@ -114,6 +114,15 @@ h5 {
   background-color: #EAEAEA;
 }
 
+.primo-piano {
+  margin-bottom: 32px;
+}
+
+.titolo-primo-piano,
+.descrizione-primo-piano {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
 
 /* Chi Siamo */
 .whois-text {
