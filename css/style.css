@@ -2,6 +2,7 @@
   max-width: 850px;
 }
 
+
 /* Navbar */
 .navbar {
   background-color: #fff;
@@ -18,6 +19,7 @@
   text-decoration: none;
 }
 
+
 /* Sidebar */
 h4 {
   padding: 2px 0px;
@@ -32,6 +34,7 @@ p {
   color: grey;
   font-size: 13px;
 }
+
 
 /* index */
 .pagebox { border-left: 1px solid #dedede; }
@@ -61,6 +64,45 @@ h5 {
   text-decoration: none;
 }
 
+
+/* Home */
+
+.home-black {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 10px;
+
+  background-color: #000;
+  font-family: "Trebuchet MS", "Arial", "Helvetica";
+}
+
+.home-black p {
+  color: #fff;
+  line-height: 22px;
+}
+
+.home-black p strong {
+  color: #FF696C;
+}
+
+.home-black .titolo {
+  text-transform: uppercase;
+}
+
+.riquadro-destro {
+  cursor: pointer;
+  border-left: 1px dotted #666;
+}
+
+.riquadro-destro .titolo {
+  color: #FC3;
+}
+
+.riquadro-destro .testo {
+  color: #00DBFF;
+}
+
+
 /* Chi Siamo */
 .whois-text {
   font-size: 26px;
@@ -79,10 +121,12 @@ h5 {
   text-align: justify;
 }
 
+
 /* Realizzazzione villette */
 .mail {
   font-size: 26px;
 }
+
 
 /* Progetti */
 .projectdiv {
@@ -90,6 +134,7 @@ h5 {
   width: 200px;
   margin-left: 5px;
 }
+
 
 /* Contatti */
 .contact p {
@@ -113,6 +158,7 @@ h5 {
 	background-color:#ededed;
 	color: grey;
 }
+
 
 /* Footer */
 .footer {
