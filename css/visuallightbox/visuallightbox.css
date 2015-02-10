@@ -1,3 +1,4 @@
+a[href='http://visuallightbox.com'] { display: none; }
 #vlb1overlay{
 	position:absolute;
 	top:0;
@@ -74,7 +75,7 @@
 	padding:0;
 	width:32px;
 	height:32px;
-	background:url(../images/loading.gif) center center no-repeat;
+	background:url(../../img/visuallightbox/loading.gif) center center no-repeat;
 	text-indent:-9999px;
 }
 #vlb1hoverNav{
@@ -103,10 +104,10 @@
 #vlb1prevLinkImg { left: 0; }
 #vlb1nextLinkImg { right: 0; }
 #vlb1prevLinkImg:hover, #vlb1prevLinkImg.hover, #vlb1prevLinkImg:visited:hover { 
-	background:url(../images/prev.gif) left 14% no-repeat; 
+	background:url(../../img/visuallightbox/prev.gif) left 14% no-repeat; 
 }
 #vlb1nextLinkImg:hover, #vlb1nextLinkImg.hover, #vlb1nextLinkImg:visited:hover { 
-	background:url(../images/next.gif) right 14% no-repeat; 
+	background:url(../../img/visuallightbox/next.gif) right 14% no-repeat; 
 }
 
 
@@ -125,11 +126,11 @@
 #vlb1numberDisplay{ display:block; float:left; padding-right:10px; margin-top:3px;}
 #vlb1detailsNav{display:block; float:left;   padding:0; }	
 #vlb1prevLinkDetails, #vlb1nextLinkDetails, #vlb1slideShowControl{ background-repeat:no-repeat; outline-style:none; display:block; float:left;}
-#vlb1prevLinkDetails { margin:3px; width:16px;height:16px; background:url(../images/prevlabel.gif) left center;}
-#vlb1nextLinkDetails { margin:3px; width:16px;height:16px; background:url(../images/nextlabel.gif) right center;}
+#vlb1prevLinkDetails { margin:3px; width:16px;height:16px; background:url(../../img/visuallightbox/prevlabel.gif) left center;}
+#vlb1nextLinkDetails { margin:3px; width:16px;height:16px; background:url(../../img/visuallightbox/nextlabel.gif) right center;}
 
 #vlb1slideShowControl.started{
-	background-image:url(../images/pause.gif);
+	background-image:url(../../img/visuallightbox/pause.gif);
 }
 
 #vlb1slideShowControl{
@@ -138,7 +139,7 @@
 	height:16px; 
 	float:left;
 	margin:3px;
-	background:url(../images/start.gif);
+	background:url(../../img/visuallightbox/start.gif);
 	background-position:center center;
 	background-repeat:no-repeat;
 	}
@@ -151,7 +152,7 @@
 	display:block; outline-style:none; margin:0; padding:0; text-decoration:none; 
 	width:66px;
 	height:32px;
-	background:url(../images/close.gif) no-repeat;
+	background:url(../../img/visuallightbox/close.gif) no-repeat;
 }	
 		
 	
@@ -198,43 +199,43 @@
 }
 
 #vlb1outerImageContainer td.tl{
-	background-image:url(../images/borderCorners.png);
+	background-image:url(../../img/visuallightbox/borderCorners.png);
 	_background-image:none;
 	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='index_files/vlb_files1/borderCorners.png', sizingMethod='scale');
 }
 #vlb1outerImageContainer td.tc{
-	background-image:url(../images/borderHoriz.png);
+	background-image:url(../../img/visuallightbox/borderHoriz.png);
 	_background-image:none;
 	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='index_files/vlb_files1/borderHoriz.png', sizingMethod='scale');
 }
 #vlb1outerImageContainer td.ml{
-	background-image:url(../images/borderVert.png);
+	background-image:url(../../img/visuallightbox/borderVert.png);
 	_background-image:none;
 	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='index_files/vlb_files1/borderVert.png', sizingMethod='scale');
 }
 #vlb1outerImageContainer td.mr{
-	background-image:url(../images/borderVert.png);
+	background-image:url(../../img/visuallightbox/borderVert.png);
 	_background-image:none;
 	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='index_files/vlb_files1/borderVert.png', sizingMethod='scale');
 }
 #vlb1outerImageContainer td.bc{
-	background-image:url(../images/borderHoriz.png);
+	background-image:url(../../img/visuallightbox/borderHoriz.png);
 	_background-image:none;
 	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='index_files/vlb_files1/borderHoriz.png', sizingMethod='scale');
 }
 .vlb{display:none;}
 #vlb1outerImageContainer td.tr{
-	background-image:url(../images/borderCorners.png);
+	background-image:url(../../img/visuallightbox/borderCorners.png);
 	_background-image:none;
 	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='index_files/vlb_files1/borderCorners.png', sizingMethod='scale');
 }
 #vlb1outerImageContainer td.bl{
-	background-image:url(../images/borderCorners.png);
+	background-image:url(../../img/visuallightbox/borderCorners.png);
 	_background-image:none;
 	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='index_files/vlb_files1/borderCorners.png', sizingMethod='scale');
 }
 #vlb1outerImageContainer td.br{
-	background-image:url(../images/borderCorners.png);
+	background-image:url(../../img/visuallightbox/borderCorners.png);
 	_background-image:none;
 	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='index_files/vlb_files1/borderCorners.png', sizingMethod='scale');
 }
