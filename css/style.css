@@ -67,9 +67,12 @@ h5 {
 
 /* Home */
 
+.home-bottom {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 .home-black {
-  margin-right: 0;
-  margin-left: 0;
   padding: 10px;
 
   background-color: #000;
@@ -82,7 +85,7 @@ h5 {
 }
 
 .home-black p strong {
-  color: #FF696C;
+  color: #4AFF7E;
 }
 
 .home-black .titolo {
@@ -100,6 +103,11 @@ h5 {
 
 .riquadro-destro .testo {
   color: #00DBFF;
+}
+
+.riquadro-grigio {
+  margin-left: 10px;
+  background-color: #EAEAEA;
 }
 
 
