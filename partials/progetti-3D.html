@@ -1,1 +1,7 @@
-Progetti 3D
+
+<div ng-controller="Project3DController as proj">
+  <div class="projectdiv" ng-repeat="project in proj.projects">
+    <img ng-src="img/progetti3D/{{ project.thumbnail }}" class="img-responsive">
+  </div>
+</div>
+

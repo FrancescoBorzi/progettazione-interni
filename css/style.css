@@ -6,6 +6,7 @@
   padding-right: 0;
   padding-left: 0;
 }
+.floatleft { float: left; }
 
 /* Navbar */
 .navbar {
