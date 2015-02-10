@@ -67,6 +67,11 @@ h5 {
 
 /* Home */
 
+.h3 {
+  text-transform: uppercase;
+  color: #488ED4;
+}
+
 .home-bottom {
   margin-right: 15px;
   margin-left: 15px;
@@ -107,9 +112,17 @@ h5 {
 
 .riquadro-grigio {
   margin-left: 10px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
+  padding: 10px;
 }
 
+.riquadro-grigio h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  border-bottom: 1px solid grey;
+  color: #488ED4;
+  margin-left: 10px;
+}
 
 /* Chi Siamo */
 .whois-text {
