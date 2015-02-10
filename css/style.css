@@ -1,7 +1,11 @@
 .container {
-  max-width: 850px;
+  max-width: 880px;
 }
 
+.zero-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 /* Navbar */
 .navbar {
@@ -121,7 +125,18 @@ h5 {
   font-size: 15px;
   border-bottom: 1px solid grey;
   color: #488ED4;
-  margin-left: 10px;
+  margin-left: 30px;
+  background-color: #EAEAEA;
+}
+
+.primo-piano {
+  margin-bottom: 32px;
+}
+
+.titolo-primo-piano,
+.descrizione-primo-piano {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 /* Chi Siamo */
