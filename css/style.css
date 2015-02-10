@@ -1,7 +1,11 @@
 .container {
-  max-width: 850px;
+  max-width: 880px;
 }
 
+.zero-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 /* Navbar */
 .navbar {
@@ -106,7 +110,7 @@ h5 {
 }
 
 .riquadro-grigio {
-  margin-left: 10px;
+  margin-left: 30px;
   background-color: #EAEAEA;
 }
 
