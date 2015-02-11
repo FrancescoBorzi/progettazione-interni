@@ -135,4 +135,12 @@
       { src: "soggiorno2" }
     ];
   });
+  
+  app.controller("CittaController", function($scope){
+    this.projects = [
+      { src: "vista1-1" },
+      { src: "vista_alto" },
+      { src: "vista2" }
+    ];
+  });
 })()
