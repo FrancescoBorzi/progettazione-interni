@@ -143,4 +143,14 @@
       { src: "vista2" }
     ];
   });
+
+  app.controller("RusticoController", function($scope){
+    this.projects = [
+      { src: "vista1-rustico" },
+      { src: "vista2-rustico" },
+      { src: "vista3-rustico" },
+      { src: "vista4-rustico" },
+      { src: "camino" }
+    ];
+  });
 })()
