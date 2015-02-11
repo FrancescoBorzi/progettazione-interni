@@ -1,7 +1,8 @@
 (function() {
   var app = angular.module('prog-int', ['ui.router', 'ui.bootstrap']);
 
-  app.config(function($stateProvider, $urlRouterProvider) {
+  app.config(function($stateProvider, $urlRouterProvider, $uiViewScrollProvider) {
+    $uiViewScrollProvider.useAnchorScroll();
 
     $urlRouterProvider.otherwise("/home");
 
@@ -81,7 +82,7 @@
         }
       }
     })
-    
+
   });
 
   app.controller("ProjectController", function($scope){
@@ -124,7 +125,7 @@
       { src: "render7.jpg", thumbnail: "render7-thumbnail.jpg" },
       { src: "vistanott.jpg", thumbnail: "vistanott.jpg" },
       { src: "vistanott 4.jpg", thumbnail: "vistanott 4.jpg" }
-      ];
+    ];
   });
 
   app.controller("CampagnaController", function($scope){
@@ -135,7 +136,7 @@
       { src: "soggiorno2" }
     ];
   });
-  
+
   app.controller("CittaController", function($scope){
     this.projects = [
       { src: "vista1-1" },
@@ -153,4 +154,5 @@
       { src: "camino" }
     ];
   });
+
 })()
