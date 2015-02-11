@@ -28,7 +28,7 @@ a[href='http://visuallightbox.com'] { display: none; }
 	text-decoration:underline;
 }
 
-#vlb1lightbox a img{ border:none; }
+#vlb1lightbox a ../../img{ border:none; }
 
 #vlb1outerImageContainer{
 	width:auto;
@@ -87,7 +87,7 @@ a[href='http://visuallightbox.com'] { display: none; }
 	z-index:10;
 }
 #vlb1imageContainer>#hoverNav{ left:0;}
-#vlb1prevLinkImg, #vlb1nextLinkImg{
+#vlb1prevLink../../img, #vlb1nextLink../../img{
 	top:0;
 	width:63px;
 	height:100%;
@@ -98,15 +98,15 @@ a[href='http://visuallightbox.com'] { display: none; }
 	text-indent:-9999px;
 	background:none;
 	}
-* html #vlb1prevLinkImg,* html #vlb1nextLinkImg{
+* html #vlb1prevLink../../img,* html #vlb1nextLink../../img{
 	background-image:url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */
 }
-#vlb1prevLinkImg { left: 0; }
-#vlb1nextLinkImg { right: 0; }
-#vlb1prevLinkImg:hover, #vlb1prevLinkImg.hover, #vlb1prevLinkImg:visited:hover { 
+#vlb1prevLink../../img { left: 0; }
+#vlb1nextLink../../img { right: 0; }
+#vlb1prevLink../../img:hover, #vlb1prevLink../../img.hover, #vlb1prevLink../../img:visited:hover {
 	background:url(../../img/visuallightbox/prev.gif) left 14% no-repeat; 
 }
-#vlb1nextLinkImg:hover, #vlb1nextLinkImg.hover, #vlb1nextLinkImg:visited:hover { 
+#vlb1nextLink../../img:hover, #vlb1nextLink../../img.hover, #vlb1nextLink../../img:visited:hover {
 	background:url(../../img/visuallightbox/next.gif) right 14% no-repeat; 
 }
 

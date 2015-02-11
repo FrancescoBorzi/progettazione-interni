@@ -6,12 +6,6 @@
 
 <p>(Per vedere il progetto completo andate nel FORUM nella sezione "Progetti e Studi" - "Studi già eseguiti")</p>
 
-<link rel="stylesheet" href="css/visuallightbox/vlightbox1.css" type="text/css" />
-<link rel="stylesheet" href="css/visuallightbox/visuallightbox.css" type="text/css" media="screen" />
-<script src="js/lib/jquery.min.js" type="text/javascript"></script>
-<script src="js/visuallightbox/visuallightbox.js" type="text/javascript"></script>
-<script src="js/visuallightbox/vlbdata1.js" type="text/javascript"></script>
-
 <div ng-controller="ProjectController as proj">
   <div class="projectdiv" ng-repeat="project in proj.projects">
     <a class="vlightbox1" href="img/progetti/miniature/{{ project.src }}" title="{{ project.src }}"><img src="img/progetti/miniature/{{ project.src }}" alt="{{ project.src }}"></a>
