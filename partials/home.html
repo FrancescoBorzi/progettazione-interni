@@ -1,1 +1,9 @@
-Home
+<div ng-controller="HomeController">
+  <ul rn-carousel rn-carousel-controls rn-carousel-auto-slide>
+    <li ng-repeat="slide in slides" ng-class="'id-' + slide.id">
+      <div ng-style="{'background-image': 'url(' + slide.img + ')'}"  class="bgimage">
+      </div>
+    </li>
+  </ul>
+</div>
+<br>

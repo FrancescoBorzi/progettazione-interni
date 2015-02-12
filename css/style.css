@@ -26,6 +26,23 @@
   text-decoration: none;
 }
 
+/* Home (Slider) */
+.bgimage {
+    text-align:right;
+    color:white;
+    background-size:cover;
+    height: 100%;
+    background-position: center center;
+}
+ul[rn-carousel] {
+    width:556px;
+    height:330px;
+    margin: 0 auto;
+}
+.rn-carousel-control {
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
 
 /* Sidebar */
 h4 {
