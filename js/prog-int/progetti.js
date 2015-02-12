@@ -1,7 +1,7 @@
 (function() {
   var app = angular.module('prog-int');
 
-  app.controller("ProjectController", function($scope){
+  app.controller("ProjectController", function($scope) {
     this.projects = [
       { src: "11_7", desc: "Prog. Interni: ristrutturazioni."},
       { src: "12_16", desc: "Prog. Interni: arredamento."},
@@ -17,7 +17,7 @@
     ];
   });
 
-  app.controller("Project3DController", function($scope){
+  app.controller("Project3DController", function($scope) {
     this.projects = [
       { src: "1.png", thumbnail: "1-thumbnail.png" },
       { src: "2.png", thumbnail: "2-thumbnail.png" },
@@ -44,7 +44,7 @@
     ];
   });
 
-  app.controller("CampagnaController", function($scope){
+  app.controller("CampagnaController", function($scope) {
     this.projects = [
       { src: "ambienteliving" },
       { src: "cameraragazzi" },
@@ -53,7 +53,7 @@
     ];
   });
 
-  app.controller("CittaController", function($scope){
+  app.controller("CittaController", function($scope) {
     this.projects = [
       { src: "vista1-1" },
       { src: "vista_alto" },
@@ -61,7 +61,7 @@
     ];
   });
 
-  app.controller("RusticoController", function($scope){
+  app.controller("RusticoController", function($scope) {
     this.projects = [
       { src: "vista1-rustico" },
       { src: "vista2-rustico" },
