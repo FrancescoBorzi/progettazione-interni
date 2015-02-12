@@ -15,12 +15,14 @@
   text-transform: uppercase;
   font-size: 14px;
 }
-.navbar ul li:hover {
+.navbar ul li:hover,
+.attiva {
   background-color: #000;
   color: #fff;
 }
-.navbar ul li:hover a:hover {
-  color: #fff;
+.navbar ul li:hover a:hover,
+.attiva a {
+  color: #fff !important;
   text-decoration: none;
 }
 
