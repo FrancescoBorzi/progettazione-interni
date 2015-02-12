@@ -21,26 +21,26 @@
 
 <div class="contact">
   <h3>Modulo richiesta preventivo:</h3>
-  <form action="send.php" method="post">
+  <form action="send.php" method="POST" enctype="multipart/form-data">
     <div class="form-group">
       <label>Nominativo:</label>
-      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nome e cognome">
+      <input type="text" class="form-control" placeholder="Nome e Cognome" name="nominativo" ng-model="formData.nominativo">
     </div>
     <div class="form-group">
       <label>Indirizzo email:</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="esempio@gmail.com">
+      <input type="email" class="form-control" placeholder="esempio@gmail.com" name="email" ng-model="formData.email">
     </div>
     <div class="form-group">
       <label>Oggetto:</label>
-      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Oggetto del messaggio">
+      <input type="text" class="form-control" placeholder="Oggetto del messaggio" name="oggetto" ng-model="formData.oggetto">
     </div>
     <div class="form-group">
       <label>Messaggio:</label>
-      <textarea class="form-control" rows="3" placeholder="Testo del messaggio"></textarea>
+      <textarea class="form-control" rows="3" placeholder="Testo del messaggio" name="messaggio" ng-model="formData.messaggio"></textarea>
     </div>
     <div class="form-group">
       <label for="exampleInputFile">Allegato</label>
-      <input type="file" id="sfoglia">
+      <input type="file" id="sfoglia" name="attachment">
       <p class="help-block">Gli utenti possono allegare i files nei seguenti tipi: html, txt, css, gif, png, jpeg, jpg, tiff, bmp, ai, eps, ps, rtf, pdf, doc, docx, xls, zip, rar, wav, mp3, ppt</p>
     </div>
     <button type="submit" class="btn btn-default btn-lg btn-block">Invia</button>
