@@ -41,6 +41,7 @@
           </div>
         </div>
       </nav>
+      <div class="text-center">
 
 <?php
 
@@ -68,10 +69,14 @@ if (!$mail->send()) {
   echo 'Message has been sent';
 }
 
+?>
+
+      </div>
+<?php
+
 include "partials/footer.html";
 
 ?>
-
     </div>
   </body>
 </html>
