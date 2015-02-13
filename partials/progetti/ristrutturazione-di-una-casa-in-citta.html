@@ -24,7 +24,7 @@
 
 <img src="img/pdf.png" class="floatleft" class="img-responsive">
 <h5>Si può prendere visione del
-“PREVENTIVO DI RISTRUTTURAZIONE EDILIZIA”
+  “PREVENTIVO DI RISTRUTTURAZIONE EDILIZIA”
   <a href="files/Ristrutturazione.pdf">scarica preventivo PDF</a></h5>
 
 <br>
@@ -32,7 +32,9 @@
 <img src="img/progetti/prospettiva_virtuale-citta.gif" class="img-responsive">
 
 <div ng-controller="CittaController as proj">
-  <div class="projectdiv" ng-repeat="project in proj.projects">
-    <a class="vlightbox1" href="img/progetti/{{project.src}}.gif"><img src="img/progetti/miniature/{{project.src}}-150x150.gif" class="img-responsive"></a>
-  </div>
+  <center>
+    <div class="projectdiv" ng-repeat="project in proj.projects">
+      <a class="vlightbox1" href="img/progetti/{{project.src}}.gif"><img src="img/progetti/miniature/{{project.src}}-150x150.gif" class="img-responsive"></a>
+    </div>
+  </center>
 </div>

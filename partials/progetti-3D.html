@@ -1,8 +1,9 @@
 <h1 class="pagetitle">Progetti 3D</h1>
 
 <div ng-controller="Project3DController as proj">
-  <div class="projectdiv" ng-repeat="project in proj.projects">
-    <a class="vlightbox1" href="img/progetti3D/{{ project.src }}"><img ng-src="img/progetti3D/{{ project.thumbnail }}" class="img-responsive"></a>
-  </div>
+  <center>
+    <div class="projectdiv" ng-repeat="project in proj.projects">
+      <a class="vlightbox1" href="img/progetti3D/{{ project.src }}"><img ng-src="img/progetti3D/{{ project.thumbnail }}" class="img-responsive"></a>
+    </div>
+  </center>
 </div>
-

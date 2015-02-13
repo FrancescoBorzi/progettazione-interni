@@ -41,7 +41,9 @@
 <img src="img/progetti/visualizzazione-caminetto.gif" class="img-responsive">
 
 <div ng-controller="RusticoController as proj">
-  <div class="projectdiv" ng-repeat="project in proj.projects">
-    <a class="vlightbox1" href="img/progetti/{{project.src}}.jpg"><img src="img/progetti/miniature/{{project.src}}-150x150.jpg" class="img-repsonsive"></a>
-  </div>
+  <center>
+    <div class="projectdiv" ng-repeat="project in proj.projects">
+      <a class="vlightbox1" href="img/progetti/{{project.src}}.jpg"><img src="img/progetti/miniature/{{project.src}}-150x150.jpg" class="img-repsonsive"></a>
+    </div>
+  </center>
 </div>
