@@ -17,13 +17,18 @@
 }
 .navbar ul li:hover,
 .attiva {
-  background-color: #000;
   color: #fff;
 }
 .navbar ul li:hover a:hover,
 .attiva a {
   color: #fff !important;
   text-decoration: none;
+}
+.attiva {
+  background-color: #000;
+}
+.navbar ul li:hover {
+  background-color: #222;
 }
 
 /* Home (Slider) */
