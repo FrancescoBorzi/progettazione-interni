@@ -233,6 +233,11 @@ h5 {
 	color: grey;
 }
 
+.avviso {
+  margin: auto;
+  max-width: 440px;
+}
+
 
 /* Footer */
 .footer {

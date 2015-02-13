@@ -49,12 +49,14 @@ require 'PHPMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 
-$mail->addAddress('borzifrancesco@gmail.com');
+$address = 'borzifrancesco@gmail.com';
+
+$mail->addAddress($address);
 $mail->isHTML(true);
 
 $mail->From     = $_POST['email'];
 $mail->FromName = $_POST['nominativo'];
-$mail->Subject  = $_POST['oggetto'];
+$mail->Subject  = $_POST['oggetto'] . " - tramite progettazione-interni.org";
 $mail->Body     = $_POST['messaggio'];
 
 if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
@@ -63,13 +65,26 @@ if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR
 }
 
 if (!$mail->send()) {
-  echo 'Message could not be sent.';
-  echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-  echo 'Message has been sent';
-}
-
 ?>
+
+        <div class="alert alert-danger avviso">
+          <p>Purtroppo non siamo riusciti a recapitare l'email richiesta, il nostro server riporta il seguente errore:</p>
+          <br>
+          <p><strong><?= $mail->ErrorInfo ?></strong></p>
+          <br>
+          <p>È possibile <a href="javascript:history.back()">tornare indietro</a> e provare a correggere l'errore.</p>
+          <p>Se l'errore persiste, consigliamo di <a href="mailto:<?= $address ?>">inviare manualmente un email all'indirizzo <strong><?= $address ?></a></strong> contenente la vostra richiesta.</p>
+          <br>
+          <p>Ci scusiamo per il disagio.</p>
+        </div>
+
+<?php } else { ?>
+
+        <div class="alert alert-success avviso">
+          Email inviata con successo.
+        </div>
+
+<?php } ?>
 
       </div>
 <?php
