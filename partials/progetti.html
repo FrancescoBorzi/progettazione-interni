@@ -1,6 +1,6 @@
 <p class="selected">Sei in: <a href="#/home">Home</a> - <b class="selectedpage">Progetti</b></p>
 
-<img src="img/progetti.png">
+<img class="img-responsive" src="img/progetti.png">
 
 <h1 class="pagetitle">Progetti</h1>
 
@@ -8,7 +8,7 @@
 
 <div ng-controller="ProjectController as proj">
   <div class="projectdiv" ng-repeat="project in proj.projects">
-    <a class="vlightbox1" href="img/progetti/{{ project.src }}.jpg" title="{{ project.desc }}"><img src="img/progetti/miniature/{{ project.src }}-150x150.jpg" alt="{{ project.desc }}"></a>
+    <a class="vlightbox1" href="img/progetti/{{ project.src }}.jpg" title="{{ project.desc }}"><img class="img-responsive" src="img/progetti/miniature/{{ project.src }}-150x150.jpg" alt="{{ project.desc }}"></a>
     <p>{{ project.desc }}</p>
   </div>
 </div>
