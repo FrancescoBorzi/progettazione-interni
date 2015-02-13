@@ -7,14 +7,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand visible-xs" href="#">Menu</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-class="{'in':!navCollapsed}">
       <ul class="nav navbar-nav">
-        <li ui-sref-active="attiva"><a ui-sref="home">Home</a></li>
-        <li ui-sref-active="attiva"><a ui-sref="chi-siamo">Chi siamo</a></li>
-        <li ui-sref-active="attiva"><a ui-sref="realizzazione-villette">Realizzazione villette</a></li>
-        <li ui-sref-active="attiva"><a ui-sref="progetti">Progetti</a></li>
-        <li ui-sref-active="attiva"><a ui-sref="contatti">Contatti</a></li>
+        <li ui-sref-active="attiva"><a ng-click="navCollapsed = true" ui-sref="home">Home</a></li>
+        <li ui-sref-active="attiva"><a ng-click="navCollapsed = true" ui-sref="chi-siamo">Chi siamo</a></li>
+        <li ui-sref-active="attiva"><a ng-click="navCollapsed = true" ui-sref="realizzazione-villette">Realizzazione villette</a></li>
+        <li ui-sref-active="attiva"><a ng-click="navCollapsed = true" ui-sref="progetti">Progetti</a></li>
+        <li ui-sref-active="attiva"><a ng-click="navCollapsed = true" ui-sref="contatti">Contatti</a></li>
         <li><a href="http://ninopg.altervista.org/phpBB2/" target="_blank">Forum</a></li>
       </ul>
     </div>
