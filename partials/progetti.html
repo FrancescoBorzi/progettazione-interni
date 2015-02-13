@@ -7,8 +7,10 @@
 <p>(Per vedere il progetto completo andate nel FORUM nella sezione "Progetti e Studi" - "Studi già eseguiti")</p>
 
 <div ng-controller="ProjectController as proj">
-  <div class="projectdiv" ng-repeat="project in proj.projects">
-    <a class="vlightbox1" href="img/progetti/{{ project.src }}.jpg" title="{{ project.desc }}"><img class="img-responsive" src="img/progetti/miniature/{{ project.src }}-150x150.jpg" alt="{{ project.desc }}"></a>
-    <p>{{ project.desc }}</p>
-  </div>
+  <center>
+    <div class="projectdiv" ng-repeat="project in proj.projects">
+      <a class="vlightbox1" href="img/progetti/{{ project.src }}.jpg" title="{{ project.desc }}"><img class="img-responsive" src="img/progetti/miniature/{{ project.src }}-150x150.jpg" alt="{{ project.desc }}"></a>
+      <p>{{ project.desc }}</p>
+    </div>
+  </center>
 </div>
