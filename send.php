@@ -19,6 +19,28 @@
   </head>
   <body>
     <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="./#/home">Home</a></li>
+              <li><a href="./#/chi-siamo">Chi siamo</a></li>
+              <li><a href="./#/realizzazione-villette">Realizzazione villette</a></li>
+              <li><a href="./#/progetti">Progetti</a></li>
+              <li><a href="./#/contatti">Contatti</a></li>
+              <li><a href="http://ninopg.altervista.org/phpBB2/" target="_blank">Forum</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 <?php
 
@@ -35,11 +57,9 @@ $mail->Subject  = $_POST['oggetto'];
 $mail->Body     = $_POST['messaggio'];
 
 if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
-    $mail->AddAttachment($_FILES['attachment']['tmp_name'],
-                         $_FILES['attachment']['name']);
+  $mail->AddAttachment($_FILES['attachment']['tmp_name'],
+                       $_FILES['attachment']['name']);
 }
-
-include "partials/navbar.html";
 
 if (!$mail->send()) {
   echo 'Message could not be sent.';
