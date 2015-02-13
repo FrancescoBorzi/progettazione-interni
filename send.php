@@ -49,20 +49,28 @@ require 'PHPMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 
-$address = 'borzifrancesco@gmail.com';
+$dest = 'borzifrancesco@gmail.com';
 
-$mail->addAddress($address);
+$email      = $_POST['email'];
+$nominativo = $_POST['nominativo'];
+$oggetto    = $_POST['oggetto'];
+$messaggio  = $_POST['messaggio'];
+
+$mail->addAddress($dest);
 $mail->isHTML(true);
 
-$mail->From     = $_POST['email'];
-$mail->FromName = $_POST['nominativo'];
-$mail->Subject  = $_POST['oggetto'] . " - tramite progettazione-interni.org";
-$mail->Body     = $_POST['messaggio'];
+$mail->From     = $email;
+$mail->FromName = utf8_decode($nominativo);
+$mail->Subject  = utf8_decode($oggetto) . " - tramite progettazione-interni.org";
+$mail->Body     = $messaggio;
 
 if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
   $mail->AddAttachment($_FILES['attachment']['tmp_name'],
                        $_FILES['attachment']['name']);
+  $allegato = $_FILES['attachment']['name'];
 }
+else
+  $allegato = "nessun allegato";
 
 if (!$mail->send()) {
 ?>
@@ -73,15 +81,38 @@ if (!$mail->send()) {
           <p><strong><?= $mail->ErrorInfo ?></strong></p>
           <br>
           <p>È possibile <a href="javascript:history.back()">tornare indietro</a> e provare a correggere l'errore.</p>
-          <p>Se l'errore persiste, consigliamo di <a href="mailto:<?= $address ?>">inviare manualmente un email all'indirizzo <strong><?= $address ?></a></strong> contenente la vostra richiesta.</p>
+          <p>Se l'errore persiste, consigliamo di <a href="mailto:<?= $dest ?>">inviare manualmente un email all'indirizzo <strong><?= $dest ?></a></strong> contenente la vostra richiesta.</p>
           <br>
           <p>Ci scusiamo per il disagio.</p>
         </div>
 
 <?php } else { ?>
 
-        <div class="alert alert-success avviso">
-          Email inviata con successo.
+        <div class="alert alert-success avviso text-center">
+          <p class="lead">Email inviata con successo</p>
+          <br>
+          <table class="table table-bordered">
+            <tr>
+              <td><p><strong>Nominativo: &nbsp;</strong></p></td>
+              <td><p><?= $nominativo ?></p></td>
+            </tr>
+            <tr>
+              <td><p><strong>Mittente: &nbsp;</strong></p></td>
+              <td><p><?= $email ?></p></td>
+            </tr>
+            <tr>
+              <td><p><strong>Oggetto: &nbsp;</strong></p></td>
+              <td><p><?= $oggetto ?></p></td>
+            </tr>
+            <tr>
+              <td><p><strong>Messaggio: &nbsp;</strong></p></td>
+              <td><p><?= $messaggio ?></p></td>
+            </tr>
+            <tr>
+              <td><p><strong>Allegato: &nbsp;</strong></p></td>
+              <td><p><?= $allegato ?></p></td>
+            </tr>
+          </table>
         </div>
 
 <?php } ?>
