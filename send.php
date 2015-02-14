@@ -49,7 +49,7 @@ require 'PHPMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 
-$dest = 'borzifrancesco@gmail.com';
+$dest = 'info@progettazione-interni.com';
 
 $email      = $_POST['email'];
 $nominativo = $_POST['nominativo'];
@@ -61,7 +61,7 @@ $mail->isHTML(true);
 
 $mail->From     = $email;
 $mail->FromName = utf8_decode($nominativo);
-$mail->Subject  = utf8_decode($oggetto) . " - tramite progettazione-interni.org";
+$mail->Subject  = utf8_decode($oggetto) . " - tramite progettazione-interni.com";
 $mail->Body     = $messaggio;
 
 if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
