@@ -36,7 +36,7 @@
               <li><a href="./#/realizzazione-villette">Realizzazione villette</a></li>
               <li><a href="./#/progetti">Progetti</a></li>
               <li><a href="./#/contatti">Contatti</a></li>
-              <li><a href="http://ninopg.altervista.org/phpBB2/" target="_blank">Forum</a></li>
+              <li><a href="./blog/" target="_blank">Blog</a></li>
             </ul>
           </div>
         </div>
