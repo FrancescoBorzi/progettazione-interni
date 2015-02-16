@@ -27,6 +27,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
 
@@ -40,7 +41,25 @@
   <body>
     <div class="container">
       <div ng-include="'partials/navbar.html'"></div>
-      <img class="img-responsive" src="img/progettazione-interni-logo.png">
+      <div class="row">
+        <div class="col-sm-6">
+          <img class="img-responsive" src="img/progettazione-interni-logo.png">
+        </div>
+        <div class="col-sm-6 text-right social" style="padding-top: 10px;">
+          <a href="https://www.facebook.com/StudioProgettazioneInterni" class="btn btn-social-icon btn-lg btn-facebook" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="https://plus.google.com/111892307357642321308/" class="btn btn-social-icon btn-lg btn-google-plus" target="_blank">
+            <i class="fa fa-google-plus"></i>
+          </a>
+          <a href="https://www.youtube.com/watch?v=etUno0T-ot4" class="btn btn-social-icon btn-lg btn-pinterest" target="_blank">
+            <i class="fa fa-youtube"></i>
+          </a>
+          <a href="./blog" class="btn btn-social-icon btn-lg btn-github" target="_blank">
+            <i class="fa fa-wordpress"></i>
+          </a>
+        </div>
+      </div>
       <br><br>
       <div class="row page">
         <div class="col-sm-4 hidden-xs" ng-include="'partials/sidebar.html'"></div>
