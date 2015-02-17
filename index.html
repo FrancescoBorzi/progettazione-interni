@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Progettazione Interni</title>
 
+    <script src="https://apis.google.com/js/platform.js" async defer>
+      {lang: 'it'}
+    </script>
     <script src="js/lib/angular.min.js"></script>
     <script src="js/lib/angular-ui-router.min.js"></script>
     <script src="js/lib/ui-bootstrap-tpls-0.12.0.min.js"></script>
@@ -14,9 +17,6 @@
     <script src="js/prog-int/main.js"></script>
     <script src="js/prog-int/config.js"></script>
     <script src="js/prog-int/progetti.js"></script>
-    <script src="https://apis.google.com/js/platform.js" async defer>
-      {lang: 'it'}
-    </script>
 
     <!-- Slider -->
     <link rel="stylesheet" href="css/visuallightbox/vlightbox1.css" type="text/css" />
@@ -68,7 +68,11 @@
         <div class="col-sm-4 hidden-xs" ng-include="'partials/sidebar.html'"></div>
         <div class="col-sm-8 pagebox">
           <div ui-view autoscroll="true"></div>
-          <div style="margin-top: 6px;" ng-include="'partials/social-like.html'"></div>
+          <div style="margin-top: 6px;">
+            <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FStudioProgettazioneInterni&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=35&amp;appId=504431039703771" scrolling="no" frameborder="0" style="border:none; overflow:hidden; max-width: 250px; max-height:22px;" allowTransparency="true"></iframe>
+
+            <div class="g-plusone" data-annotation="inline" data-width="300" data-href="http://www.progettazione-interni.com"></div>
+          </div>
         </div>
       </div>
 
