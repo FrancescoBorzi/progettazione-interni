@@ -217,6 +217,9 @@ h5 {
 
 
 /* Contatti */
+.contact {
+  margin-bottom: 24px;
+}
 .contact p {
   padding-left: 30px;
   padding-bottom: 10px;
