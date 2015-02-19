@@ -10,10 +10,11 @@
 
 /* Navbar */
 .navbar {
-  background-color: #fff;
-  border-top: 4px solid #000;
   text-transform: uppercase;
   font-size: 14px;
+
+  background-color: #fff;
+  border-top: 4px solid #000;
 }
 .navbar ul li:hover,
 .attiva {
@@ -33,10 +34,12 @@
 
 /* Home (Slider) */
 .bgimage {
+  height: 100%;
+
   text-align: right;
   color: white;
+
   background-size: cover;
-  height: 100%;
   background-position: center center;
 }
 ul[rn-carousel] {
@@ -53,8 +56,10 @@ ul[rn-carousel] {
 /* Sidebar */
 h4 {
   padding: 2px 0px;
-  border-bottom: 1px solid #dedede;
+
   font-weight: 500;
+
+  border-bottom: 1px solid #dedede;
 }
 .low-size {
   font-size: 12px;
@@ -70,8 +75,9 @@ p {
 .pagebox { border-left: 1px solid #dedede; }
 .selected
 {
-  border-bottom: 1px solid #dedede;
   padding-bottom: 5px;
+
+  border-bottom: 1px solid #dedede;
 }
 .selected a { color: grey; }
 .selectedpage { text-transform: uppercase; }
@@ -110,8 +116,9 @@ h5 {
 .home-black {
   padding: 10px;
 
-  background-color: #000;
   font-family: "Trebuchet MS", "Arial", "Helvetica";
+
+  background-color: #000;
 }
 
 .home-black p {
@@ -142,19 +149,22 @@ h5 {
 
 .riquadro-grigio {
   margin-left: 30px;
-  background-color: #eaeaea;
   padding: 5px 0px;
+
+  background-color: #eaeaea;
 }
 
 .riquadro-grigio h4 {
+  display: block;
+  margin-left: 14px;
+  max-width: 228px;
+
   text-transform: uppercase;
   font-size: 15px;
-  border-bottom: 1px solid grey;
   color: #488ED4;
-  margin-left: 14px;
+
+  border-bottom: 1px solid grey;
   background-color: #EAEAEA;
-  display: block;
-  max-width: 228px;
 }
 
 .riquadro-grigio ul {
@@ -165,6 +175,7 @@ h5 {
 .riquadro-grigio > p {
   padding-left: 20px;
   padding-right: 20px;
+
   line-height: 1.2;
 }
 
@@ -226,8 +237,10 @@ h5 {
 }
 .contact #sfoglia {
   height: 30px;
+
   font-size: 20px;
   color: #4f4f4f;
+
   background-color: transparent;
   border: 1px solid #d0d1d2;
   -webkit-border-radius: 5px;
@@ -238,8 +251,9 @@ h5 {
 }
 
 .invia:hover {
-  background-color:#ededed;
   color: grey;
+
+  background-color:#ededed;
 }
 
 .avviso {
@@ -254,6 +268,7 @@ h5 {
 /* Footer */
 .footer {
   padding-top: 5px;
+
   border-top: 1px solid #dedede;
 }
 .footer * a {
