@@ -61,6 +61,14 @@
         }
       }
     })
+    .state('opzione-gratis', {
+      url: '/opzione-gratis',
+      views: {
+        '': {
+          templateUrl: 'partials/opzione-gratis.html'
+        }
+      }
+    })
     .state('suddivisione-di-una-casa-in-campagna-in-due-alloggi', {
       url: '/suddivisione-di-una-casa-in-campagna-in-due-alloggi',
       views: {
