@@ -8,6 +8,7 @@
 
   app.controller("HomeController", function($scope){
     $scope.slides = [
+      { img: "img/progetti3D/1.jpg" },
       { img: "img/progetti3D/vistanott4.jpg" },
       { img: "img/progetti3D/vistanott.jpg" },
       { img: "img/progetti3D/render7.jpg" },
