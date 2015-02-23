@@ -73,6 +73,7 @@ p {
 .opzione-gratis-sidebar {
   text-decoration: none !important;
   text-transform: uppercase;
+  color: green !important;
 
   -webkit-animation-name: blinker;
   -webkit-animation-duration: 2s;
