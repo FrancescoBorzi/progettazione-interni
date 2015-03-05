@@ -39,6 +39,8 @@
       { src: "render5.jpg", thumbnail: "render5-thumbnail.jpg" },
       { src: "render6.jpg", thumbnail: "render6-thumbnail.jpg" },
       { src: "render7.jpg", thumbnail: "render7-thumbnail.jpg" },
+      { src: "render8.jpg", thumbnail: "render8-thumbnail.jpg" },
+      { src: "render9.jpg", thumbnail: "render9-thumbnail.jpg" },
       { src: "vistanott.jpg", thumbnail: "vistanott-thumbnail.jpg" },
       { src: "vistanott4.jpg", thumbnail: "vistanott4-thumbnail.jpg" }
     ];
