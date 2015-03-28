@@ -17,6 +17,27 @@
     ];
   });
 
+  app.controller("HomeController", function($scope){
+    $scope.slides = [
+      { img: "img/progetti3D/1.jpg" },
+      { img: "img/progetti3D/vistanott4.jpg" },
+      { img: "img/progetti3D/vistanott.jpg" },
+      { img: "img/progetti3D/render7.jpg" },
+      { img: "img/progetti3D/render6.jpg" },
+      { img: "img/progetti3D/render5.jpg" },
+      { img: "img/progetti3D/render4.jpg" },
+      { img: "img/progetti3D/render3.jpg" },
+      { img: "img/progetti3D/render2.jpg" },
+      { img: "img/progetti3D/render1.jpg" },
+      { img: "img/progetti3D/18.png" },
+      { img: "img/progetti3D/16.png" },
+      { img: "img/progetti3D/13.png" },
+      { img: "img/progetti3D/12.png" },
+      { img: "img/progetti3D/7.png" }
+    ];
+  });
+
+
   app.controller("Project3DController", function($scope) {
     this.projects = [
       { src: "1.png", thumbnail: "1-thumbnail.png" },
@@ -32,6 +53,7 @@
       { src: "15.png", thumbnail: "15-thumbnail.png" },
       { src: "16.png", thumbnail: "16-thumbnail.png" },
       { src: "17.png", thumbnail: "17-thumbnail.png" },
+      { src: "18.png", thumbnail: "18-thumbnail.png" },
       { src: "render1.jpg", thumbnail: "render1-thumbnail.jpg" },
       { src: "render2.jpg", thumbnail: "render2-thumbnail.jpg" },
       { src: "render3.jpg", thumbnail: "render3-thumbnail.jpg" },
@@ -41,6 +63,7 @@
       { src: "render7.jpg", thumbnail: "render7-thumbnail.jpg" },
       { src: "render8.jpg", thumbnail: "render8-thumbnail.jpg" },
       { src: "render9.jpg", thumbnail: "render9-thumbnail.jpg" },
+      { src: "render10.jpg", thumbnail: "render10-thumbnail.jpg" },
       { src: "vistanott.jpg", thumbnail: "vistanott-thumbnail.jpg" },
       { src: "vistanott4.jpg", thumbnail: "vistanott4-thumbnail.jpg" }
     ];
