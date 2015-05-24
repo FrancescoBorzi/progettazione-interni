@@ -33,7 +33,10 @@
       { img: "img/progetti3D/16.png" },
       { img: "img/progetti3D/13.png" },
       { img: "img/progetti3D/12.png" },
-      { img: "img/progetti3D/7.png" }
+      { img: "img/progetti3D/7.png" },
+      { img: "img/progetti3D/render11.jpg" },
+      { img: "img/progetti3D/render12.jpg" },
+      { img: "img/progetti3D/render13.jpg" }
     ];
   });
 
@@ -64,6 +67,9 @@
       { src: "render8.jpg", thumbnail: "render8-thumbnail.jpg" },
       { src: "render9.jpg", thumbnail: "render9-thumbnail.jpg" },
       { src: "render10.jpg", thumbnail: "render10-thumbnail.jpg" },
+      { src: "render11.jpg", thumbnail: "render11-thumbnail.jpg" },
+      { src: "render12.jpg", thumbnail: "render12-thumbnail.jpg" },
+      { src: "render13.jpg", thumbnail: "render13-thumbnail.jpg" },
       { src: "vistanott.jpg", thumbnail: "vistanott-thumbnail.jpg" },
       { src: "vistanott4.jpg", thumbnail: "vistanott4-thumbnail.jpg" }
     ];
