@@ -32,6 +32,10 @@
   background-color: #222;
 }
 
+.hits {
+  margin-top: 4px;
+}
+
 /* Home (Slider) */
 .bgimage {
   height: 100%;

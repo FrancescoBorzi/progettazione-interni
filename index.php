@@ -1,3 +1,4 @@
+<?php require("simphp.php"); ?>
 <!DOCTYPE html>
 <html lang="it" ng-app="prog-int">
   <head>
@@ -61,9 +62,9 @@
           <a title="Wordpress" href="./blog" class="btn btn-social-icon btn-lg btn-github" target="_blank">
             <i class="fa fa-wordpress"></i>
           </a>
+          <div class="hits"><?php echo $info; ?></div>
         </div>
       </div>
-      <br><br>
       <div class="row page">
         <div class="col-sm-4 hidden-xs" ng-include="'partials/sidebar.html'"></div>
         <div class="col-sm-8 pagebox">
