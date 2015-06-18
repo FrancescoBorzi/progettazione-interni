@@ -43,10 +43,10 @@ $type = 2;
 
 // Text to display
 // before total hits
-$beforeTotalText = "Visite: ";
+$beforeTotalText = "Pagine visitate: ";
 
 // Before unique hits
-$beforeUniqueText = "Visitatori unici: ";
+$beforeUniqueText = "Sei il visitatore numero: ";
 
 // Display hits on this page:
 //   0 = No
