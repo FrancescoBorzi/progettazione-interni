@@ -73,12 +73,15 @@
             <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FStudioProgettazioneInterni&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=35&amp;appId=504431039703771" scrolling="no" frameborder="0" style="border:none; overflow:hidden; max-width: 250px; max-height:22px;" allowTransparency="true"></iframe>
 
             <div class="g-plusone" data-annotation="inline" data-width="300" data-href="http://www.progettazione-interni.com"></div>
+
+            <p class="h5">Scopri la nostra <a class="opzione-gratis-sidebar" href="./#/opzione-gratis"><strong>opzione gratis</strong></a></p>
+            <br>
           </div>
         </div>
       </div>
 
       <div ui-view="home-bottom"></div>
-      <div>
+      <div style="margin-top: 10px">
         <script type="text/javascript">
           /* <![CDATA[ */
           document.write('<s'+'cript type="text/javascript" src="http://ad.altervista.org/js.ad/size=728X90/r='+new Date().getTime()+'"><\/s'+'cript>');
