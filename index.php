@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta description="Il nostro team si occupa dello studio della distribuzione degli spazi, di ristrutturazioni e di arredamento.">
+    <meta author="Francesco Borzì">
     <title>Progettazione Interni</title>
 
     <script src="https://apis.google.com/js/platform.js" async defer>
