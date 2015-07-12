@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta description="Il nostro team si occupa dello studio della distribuzione degli spazi, di ristrutturazioni e di arredamento.">
+    <meta description="Studio di progettazione interni per nuove composizioni degli spazi, studio dell'arredamento degli stessi. Contattaci e gratuitamente un professionista abilitato risponderà alle tue domande, dandoti idee e consigli, cercando di chiarire i tuoi dubbi.">
     <meta author="Francesco Borzì">
     <title>Progettazione Interni</title>
 
