@@ -159,6 +159,11 @@ if ($_GET['display'] == "true") {
 					$pieces = explode(";", $log);
 					$totalHits = $pieces[0];
 					$uniqueHits = $pieces[1];
+
+                    // hack to restore the old website visits
+                    $uniqueHits += 56000;
+                    $totalHits  += 83000;
+
 					$IPs = $pieces[2];
 					$IPArray = explode(",", $IPs);
 
