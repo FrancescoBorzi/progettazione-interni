@@ -160,10 +160,6 @@ if ($_GET['display'] == "true") {
 					$totalHits = $pieces[0];
 					$uniqueHits = $pieces[1];
 
-                    // hack to restore the old website visits
-                    $uniqueHits += 56000;
-                    $totalHits  += 83000;
-
 					$IPs = $pieces[2];
 					$IPArray = explode(",", $IPs);
 
@@ -181,6 +177,11 @@ if ($_GET['display'] == "true") {
 						// If IP already exists just keep unique hits unchanged
 						$toWrite = $totalHits . ";" . $uniqueHits . ";" . $IPs;
 					}
+
+                    // hack to restore the old website visits
+                    $uniqueHits += 56000;
+                    $totalHits  += 83000;
+
 					// Info to show
 					$info = $beforeTotalText . $totalHits . $separator . $beforeUniqueText . $uniqueHits;
 				}
