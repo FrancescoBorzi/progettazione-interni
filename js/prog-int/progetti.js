@@ -73,7 +73,8 @@
       { src: "render13.jpg", thumbnail: "render13-thumbnail.jpg" },
       { src: "render14.jpg", thumbnail: "render14-thumbnail.jpg" },
       { src: "vistanott.jpg", thumbnail: "vistanott-thumbnail.jpg" },
-      { src: "vistanott4.jpg", thumbnail: "vistanott4-thumbnail.jpg" }
+      { src: "vistanott4.jpg", thumbnail: "vistanott4-thumbnail.jpg" },
+      { src: "vista14 (nott.).jpg", thumbnail: "vista14 (nott.)-thumbnail.jpg" }
     ];
   });
 
