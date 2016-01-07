@@ -38,7 +38,8 @@
       { img: "img/progetti3D/render12.jpg" },
       { img: "img/progetti3D/render13.jpg" },
       { img: "img/progetti3D/render14.jpg" },
-      { img: "img/progetti3D/render15.jpg" }
+      { img: "img/progetti3D/render15.jpg" },
+      { img: "img/progetti3D/render16.jpg" }
     ];
   });
 
