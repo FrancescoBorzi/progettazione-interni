@@ -60,6 +60,7 @@
       { src: "16.png", thumbnail: "16-thumbnail.png" },
       { src: "17.png", thumbnail: "17-thumbnail.png" },
       { src: "18.png", thumbnail: "18-thumbnail.png" },
+      { src: "19.jpg", thumbnail: "19-thumbnail.jpg" },
       { src: "render1.jpg", thumbnail: "render1-thumbnail.jpg" },
       { src: "render2.jpg", thumbnail: "render2-thumbnail.jpg" },
       { src: "render3.jpg", thumbnail: "render3-thumbnail.jpg" },
